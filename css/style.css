@@ -18,7 +18,7 @@ html {
 body {
   font-family: 'Noto Sans Japanese', serif;
   font-size: 1.2rem;
-  width: 640px;
+  width: 400px;
   margin: 0 auto;
   padding: 0;
   background-color: #EEEEEE;
@@ -31,11 +31,55 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-#sspage{
-  width: 640px;
-  background:#000;
+#head{
+  position:fixed;
+  max-width: 400px;
+  width:100%;
+  height:auto;
+  z-index:10;
+  padding:10px;
+  color:#224e97;
+  background:#FFF;
 }
+
+#spage{
+  position:relative;
+  max-width: 400px;
+  width:100%;
+  height:100%;
+  background:#224e97;
+}
+
+#spage .maper img{
+  width: 100%;
+  margin-top:100px;
+}
+
+.info{
+  padding:10px;
+  width:170px;
+  position:absolute;
+  top:80px;
+  height:auto;
+  font-size:1.3rem;
+  line-height:3rem;
+  background:#FFF;
+}
+.info2{
+  padding:10px;
+  width:170px;
+  position:absolute;
+  top:620px;
+  height:auto;
+  font-size:1.3rem;
+  line-height:3rem;
+  background:#FFF;
+}
+.info .ttl{
+  font-size:1.5rem;
+}
+
 h1{
   font-size:1.9rem;
-
+  margin:0;
 }
