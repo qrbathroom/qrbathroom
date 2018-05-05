@@ -31,7 +31,9 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-
+#sspage{
+  width: 640px;
+}
 h1{
   font-size:1.9rem;
 
